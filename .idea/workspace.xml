@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe3c432-be99-443e-855f-729c660898e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WikipediaAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WordCount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WikipediaAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="139">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,6 +44,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WordCount.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WikipediaAnalysis.java" />
       </list>
     </option>
   </component>
@@ -64,6 +68,32 @@
               <item name="quickstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="quickstart" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="quickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548836263733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548837930614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -92,7 +122,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WikipediaAnalysis">
+    <configuration name="WikipediaAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myorg.quickstart.WikipediaAnalysis" />
+      <module name="quickstart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.myorg.quickstart.WordCount" />
       <module name="quickstart" />
@@ -108,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WikipediaAnalysis" />
         <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
@@ -122,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548833345729</updated>
-      <workItem from="1548833348996" duration="2608000" />
+      <workItem from="1548833348996" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="study flink">
       <created>1548836015436</created>
@@ -138,27 +182,35 @@
       <option name="project" value="LOCAL" />
       <updated>1548836026917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/FortressBesieged/quickstart&#10;&#10;# 请输入一个提交信息以解释此合并的必要性，尤其是将一个更新后的上游分支&#10;# 合并到主题分支。&#10;#&#10;# 以 '#' 开头的行将被忽略，而且空提交说明将会终止提交。">
+      <created>1548836267204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548836267204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2608000" />
+    <option name="totallyTimeSpent" value="4272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="28" width="1207" height="775" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35360557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35360557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.18518518" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -183,7 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study flink" />
-    <option name="LAST_COMMIT_MESSAGE" value="study flink" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/FortressBesieged/quickstart&#10;&#10;# 请输入一个提交信息以解释此合并的必要性，尤其是将一个更新后的上游分支&#10;# 合并到主题分支。&#10;#&#10;# 以 '#' 开头的行将被忽略，而且空提交说明将会终止提交。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/FortressBesieged/quickstart&#10;&#10;# 请输入一个提交信息以解释此合并的必要性，尤其是将一个更新后的上游分支&#10;# 合并到主题分支。&#10;#&#10;# 以 '#' 开头的行将被忽略，而且空提交说明将会终止提交。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/myorg/quickstart/StreamingJob.java">
@@ -204,6 +257,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/myorg/quickstart/WikipediaAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
